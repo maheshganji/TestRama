@@ -89,7 +89,7 @@ pipeline {
                         "repositoryName": "${repoName}"
                     }
                 ],
-                "branchName": "main"
+                "branchName": "scratch/encode"
                 }""")
 
                 snDevOpsPackage(
@@ -105,7 +105,7 @@ pipeline {
                             "repositoryName": "${repoName}"
                         }
                     ],
-                    "branchName": "main"
+                    "branchName": "scratch/encode"
                 }""")
             }     
         }
